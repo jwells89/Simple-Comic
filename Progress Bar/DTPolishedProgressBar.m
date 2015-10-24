@@ -123,7 +123,7 @@
     }
     
     leftSize = [leftString sizeWithAttributes: self.numberStyle];
-    rightSize = [leftString sizeWithAttributes: self.numberStyle];
+    rightSize = [rightString sizeWithAttributes: self.numberStyle];
 	
     // Draw progress
     [self.barProgressColor set];
